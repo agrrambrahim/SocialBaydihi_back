@@ -7,14 +7,14 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\Common\Collections\ArrayCollection;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 /**
- * Category
+ * PackageName
  *
- * @ORM\Table(name="category_howto")
- * @ORM\Entity(repositoryClass="AppBundle\Repository\CategoryRepository")
+ * @ORM\Table(name="PackageName_howto")
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\PackageNameRepository")
  * @UniqueEntity(fields={"title"})
 
  */
-class Category
+class PackageName
 {
     /**
      * @var int
@@ -51,22 +51,15 @@ class Category
     private $description;
 
     /**
-    * @ORM\OneToMany(targetEntity="Guide", mappedBy="category")
+    * @ORM\OneToMany(targetEntity="Categorie", mappedBy="PackageName")
     * @ORM\OrderBy({"created" = "desc"})
     */
-    private $guides;
-
-    /**
-     * @ORM\ManyToOne(targetEntity="PackageName", mappedBy="category")
-     * @ORM\OrderBy({"created" = "desc"})
-     */
-    private $packageName;
+    private $categories;
 
     public function __construct()
     {
-        $this->guides = new ArrayCollection();
+        $this->categories = new ArrayCollection();
     }
-
     /**
      * Get id
      *
@@ -78,35 +71,10 @@ class Category
     }
 
     /**
-     * Set PackageName
-     *
-     * @param string $packageName
-     * @return Category
-     */
-    public function setPackageName($packageName)
-    {
-        $this->packageName = $packageName;
-
-        return $this;
-    }
-
-    /**
-     * Get PackageName
-     *
-     * @return string
-     */
-    public function getPackageName()
-    {
-        return $this->packageName;
-    }
-
-
-
-    /**
      * Set title
      *
      * @param string $title
-     * @return Category
+     * @return PackageName
      */
     public function setTitle($title)
     {
@@ -129,7 +97,7 @@ class Category
      * Set position
      *
      * @param integer $position
-     * @return Category
+     * @return PackageName
      */
     public function setPosition($position)
     {
@@ -152,7 +120,7 @@ class Category
      * Set description
      *
      * @param string $description
-     * @return Category
+     * @return PackageName
      */
     public function setDescription($description)
     {
@@ -173,34 +141,34 @@ class Category
     /**
      * Add guides
      *
-     * @param Article $guides
+     * @param Article $categories
      * @return Categorie
      */
-    public function addGuide(Guide $guide)
+    public function addCategory(Category $category)
     {
-        $this->guides[] = $guide;
+        $this->categories[] = $category;
 
         return $this;
     }
 
     /**
-     * Remove guides
+     * Remove categories
      *
-     * @param Article $guides
+     * @param Article $categories
      */
-    public function removeGuide(Guide $guide)
+    public function removeGuide(Category $category)
     {
-        $this->guides->removeElement($guide);
+        $this->categories->removeElement($category);
     }
 
     /**
-     * Get guides
+     * Get categories
      *
      * @return \Doctrine\Common\Collections\Collection 
      */
-    public function getGuides()
+    public function getCategories()
     {
-        return $this->guides;
+        return $this->categories;
     }
         public function __toString()
     {

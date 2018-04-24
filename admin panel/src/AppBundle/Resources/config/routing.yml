@@ -32,6 +32,10 @@ app_categories_edit:
     requirements:
         id:  \d+
 api_categories_list:
+  path: /api/categories/list/{token}/{packageName}
+  defaults: { _controller: AppBundle:Categories:api_listByPackageName}
+
+api_categories_listByPackName:
   path: /api/categories/list/{token}/
   defaults: { _controller: AppBundle:Categories:api_list}
 

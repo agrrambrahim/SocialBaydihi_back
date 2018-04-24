@@ -16,6 +16,31 @@ class CategoriesController extends Controller
 {
 
 
+    public function api_listByPackageNameAction(Request $request,$token,$packageName){
+        if ($token!=$this->container->getParameter('token_app')) {
+            throw new NotFoundHttpException("Page not found");
+        }
+        $em=$this->getDoctrine()->getManager();
+        $imagineCacheManager = $this->get('liip_imagine.cache.manager');
+        $categories=$em->getRepository('AppBundle:Category')->findBy(array('packageName'=>$packageName),array("position"=>"asc"));
+
+
+        $list=array();
+        foreach ($categories as $key => $category) {
+            $c["id"]=$category->getId();
+            $c["title"]=$category->getTitle();
+            $c["description"]=$category->getDescription();
+
+            $list[]=$c;
+        }
+        header('Content-Type: application/json');
+        $encoders = array(new XmlEncoder(), new JsonEncoder());
+        $normalizers = array(new ObjectNormalizer());
+        $serializer = new Serializer($normalizers, $encoders);
+        $jsonContent=$serializer->serialize($list, 'json');
+        return new Response($jsonContent);
+    }
+
 
     public function api_listAction(Request $request,$token){
         if ($token!=$this->container->getParameter('token_app')) {
