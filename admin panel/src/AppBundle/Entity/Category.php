@@ -57,10 +57,10 @@ class Category
     private $guides;
 
     /**
-     * @ORM\ManyToOne(targetEntity="PackageName", mappedBy="category")
+     * @ORM\ManyToOne(targetEntity="Application", mappedBy="category")
      * @ORM\OrderBy({"created" = "desc"})
      */
-    private $packageName;
+    private $Application;
 
     public function __construct()
     {
@@ -78,26 +78,26 @@ class Category
     }
 
     /**
-     * Set PackageName
+     * Set Application
      *
-     * @param string $packageName
+     * @param string $Application
      * @return Category
      */
-    public function setPackageName($packageName)
+    public function setApplication($Application)
     {
-        $this->packageName = $packageName;
+        $this->Application = $Application;
 
         return $this;
     }
 
     /**
-     * Get PackageName
+     * Get Application
      *
      * @return string
      */
-    public function getPackageName()
+    public function getApplication()
     {
-        return $this->packageName;
+        return $this->Application;
     }
 
 

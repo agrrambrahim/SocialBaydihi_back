@@ -7,14 +7,14 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\Common\Collections\ArrayCollection;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 /**
- * PackageName
+ * Application
  *
- * @ORM\Table(name="PackageName_howto")
- * @ORM\Entity(repositoryClass="AppBundle\Repository\PackageNameRepository")
+ * @ORM\Table(name="Application_howto")
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\ApplicationRepository")
  * @UniqueEntity(fields={"title"})
 
  */
-class PackageName
+class Application
 {
     /**
      * @var int
@@ -51,7 +51,7 @@ class PackageName
     private $description;
 
     /**
-    * @ORM\OneToMany(targetEntity="Categorie", mappedBy="PackageName")
+    * @ORM\OneToMany(targetEntity="Categorie", mappedBy="Application")
     * @ORM\OrderBy({"created" = "desc"})
     */
     private $categories;
@@ -74,7 +74,7 @@ class PackageName
      * Set title
      *
      * @param string $title
-     * @return PackageName
+     * @return Application
      */
     public function setTitle($title)
     {
@@ -97,7 +97,7 @@ class PackageName
      * Set position
      *
      * @param integer $position
-     * @return PackageName
+     * @return Application
      */
     public function setPosition($position)
     {
@@ -120,7 +120,7 @@ class PackageName
      * Set description
      *
      * @param string $description
-     * @return PackageName
+     * @return Application
      */
     public function setDescription($description)
     {
