@@ -60,7 +60,7 @@ class HomeController extends Controller
 
         ));
     }
-    public function api_deviceAction($tkn,$token){
+    public function api_deviceAction($application,$tkn,$token){
         if ($token!=$this->container->getParameter('token_app')) {
             throw new NotFoundHttpException("Page not found");  
         }

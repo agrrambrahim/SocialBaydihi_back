@@ -2,7 +2,7 @@ app_home_index:
     path:     /
     defaults: { _controller: AppBundle:Home:index }
 api_home_api_device:
-    path:   /api/device/{tkn}/{token}/
+    path:   /api/{packageName}/device/{tkn}/{token}/
     defaults: { _controller: AppBundle:Home:api_device }
 
 
@@ -61,7 +61,7 @@ app_categories_edit:
     requirements:
         id:  \d+
 api_categories_list:
-  path: /api/categories/list/{token}/
+  path: /api/{packageName}/categories/list/{token}/
   defaults: { _controller: AppBundle:Categories:api_list}
 
 api_categoriesbyApplication_list:
@@ -149,36 +149,36 @@ app_guides_delete:
     requirements:
         id:  \d+
 api_guides_all:
-  path: /api/guides/all/{token}/
+  path: /api/{packageName}/guides/all/{token}/
   defaults: { _controller: AppBundle:Guides:api_all}
 api_guides_get:
-  path: /api/guides/get/{id}/{token}/
+  path: /api/{packageName}/guides/get/{id}/{token}/
   defaults: { _controller: AppBundle:Guides:api_get}  
   requirements:
     id:  \d+
 api_guides_next:
-  path: /api/guides/next/{id}/{token}/
+  path: /api/{packageName}/guides/next/{id}/{token}/
   defaults: { _controller: AppBundle:Guides:api_next}  
   requirements:
     id:  \d+
 api_guides_get:
-  path: /api/guides/get/{id}/{token}/
+  path: /api/{packageName}/guides/get/{id}/{token}/
   defaults: { _controller: AppBundle:Guides:api_get}  
   requirements:
     id:  \d+
 api_guides_by_category:
-  path: /api/guides/by/{category}/{token}/
+  path: /api/{packageName}/guides/by/{category}/{token}/
   defaults: { _controller: AppBundle:Guides:api_by_category}
   requirements:
     category:  \d+
 api_guides_by_query:
-  path: /api/guides/search/{query}/{token}/
+  path: /api/{packageName}/guides/search/{query}/{token}/
   defaults: { _controller: AppBundle:Guides:api_by_query}
   requirements:
     category:  \d+
 
 api_guides_by_category_next:
-  path: /api/guides/next/{category}/{id}/{token}/
+  path: /api/{packageName}/guides/next/{category}/{id}/{token}/
   defaults: { _controller: AppBundle:Guides:api_by_category_next}
   requirements:
     category:  \d+
@@ -238,10 +238,10 @@ app_comments_index:
     path:     /comments/index.html
     defaults: { _controller: AppBundle:Comments:index }
 api_comments_add:
-    path:     /api/comments/add/{user}/{article}/{comment}/{token}/
+    path:     /api/{packageName}/comments/add/{user}/{article}/{comment}/{token}/
     defaults: { _controller: AppBundle:Comments:api_add }
 api_comments_by:
-    path:     /api/comments/by/{article}/{token}/
+    path:     /api/{packageName}/comments/by/{article}/{token}/
     defaults: { _controller: AppBundle:Comments:api_by }
 
 app_support_index:
@@ -254,5 +254,5 @@ app_support_delete:
     path:     /support/delete/{id}.html
     defaults: { _controller: AppBundle:Support:delete }
 api_support_add:
-    path:     /api/support/add/{email}/{subject}/{message}/{token}/
+    path:     /api/{packageName}/support/add/{email}/{subject}/{message}/{token}/
     defaults: { _controller: AppBundle:Support:api_add }

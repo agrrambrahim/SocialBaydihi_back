@@ -30,7 +30,7 @@ class GuidesController extends Controller
         }
         return $this->render("AppBundle:Guides:get.html.php",array("guide"=>$guide));
     }
-    public function api_nextAction(Request $request,$id,$token){
+    public function api_nextAction(Request $request,$id,$token,$application){
         if ($token!=$this->container->getParameter('token_app')) {
             throw new NotFoundHttpException("Page not found");  
         }

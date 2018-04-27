@@ -268,7 +268,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         if (0 === strpos($pathinfo, '/ap')) {
             // api_home_api_device
-            if (0 === strpos($pathinfo, '/api/device') && preg_match('#^/api/device/(?P<tkn>[^/]++)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
+            if (0 === strpos($pathinfo, '/api') && preg_match('#^/api/(?P<packageName>[^/]++)/device/(?P<tkn>[^/]++)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
                 if (substr($pathinfo, -1) !== '/') {
                     return $this->redirect($pathinfo.'/', 'api_home_api_device');
                 }
@@ -346,7 +346,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         if (0 === strpos($pathinfo, '/api')) {
             // api_categories_list
-            if (0 === strpos($pathinfo, '/api/categories/list') && preg_match('#^/api/categories/list/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
+            if (preg_match('#^/api/(?P<packageName>[^/]++)/categories/list/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
                 if (substr($pathinfo, -1) !== '/') {
                     return $this->redirect($pathinfo.'/', 'api_categories_list');
                 }
@@ -472,9 +472,9 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        if (0 === strpos($pathinfo, '/api/guides')) {
+        if (0 === strpos($pathinfo, '/api')) {
             // api_guides_get
-            if (0 === strpos($pathinfo, '/api/guides/get') && preg_match('#^/api/guides/get/(?P<id>\\d+)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
+            if (preg_match('#^/api/(?P<packageName>[^/]++)/guides/get/(?P<id>\\d+)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
                 if (substr($pathinfo, -1) !== '/') {
                     return $this->redirect($pathinfo.'/', 'api_guides_get');
                 }
@@ -483,7 +483,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             }
 
             // api_guides_next
-            if (0 === strpos($pathinfo, '/api/guides/next') && preg_match('#^/api/guides/next/(?P<id>\\d+)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
+            if (preg_match('#^/api/(?P<packageName>[^/]++)/guides/next/(?P<id>\\d+)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
                 if (substr($pathinfo, -1) !== '/') {
                     return $this->redirect($pathinfo.'/', 'api_guides_next');
                 }
@@ -492,7 +492,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             }
 
             // api_guides_by_category
-            if (0 === strpos($pathinfo, '/api/guides/by') && preg_match('#^/api/guides/by/(?P<category>\\d+)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
+            if (preg_match('#^/api/(?P<packageName>[^/]++)/guides/by/(?P<category>\\d+)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
                 if (substr($pathinfo, -1) !== '/') {
                     return $this->redirect($pathinfo.'/', 'api_guides_by_category');
                 }
@@ -501,7 +501,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             }
 
             // api_guides_by_query
-            if (0 === strpos($pathinfo, '/api/guides/search') && preg_match('#^/api/guides/search/(?P<query>[^/]++)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
+            if (preg_match('#^/api/(?P<packageName>[^/]++)/guides/search/(?P<query>[^/]++)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
                 if (substr($pathinfo, -1) !== '/') {
                     return $this->redirect($pathinfo.'/', 'api_guides_by_query');
                 }
@@ -510,7 +510,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             }
 
             // api_guides_by_category_next
-            if (0 === strpos($pathinfo, '/api/guides/next') && preg_match('#^/api/guides/next/(?P<category>\\d+)/(?P<id>\\d+)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
+            if (preg_match('#^/api/(?P<packageName>[^/]++)/guides/next/(?P<category>\\d+)/(?P<id>\\d+)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
                 if (substr($pathinfo, -1) !== '/') {
                     return $this->redirect($pathinfo.'/', 'api_guides_by_category_next');
                 }
@@ -587,9 +587,9 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        if (0 === strpos($pathinfo, '/api/comments')) {
+        if (0 === strpos($pathinfo, '/api')) {
             // api_comments_add
-            if (0 === strpos($pathinfo, '/api/comments/add') && preg_match('#^/api/comments/add/(?P<user>[^/]++)/(?P<article>[^/]++)/(?P<comment>[^/]++)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
+            if (preg_match('#^/api/(?P<packageName>[^/]++)/comments/add/(?P<user>[^/]++)/(?P<article>[^/]++)/(?P<comment>[^/]++)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
                 if (substr($pathinfo, -1) !== '/') {
                     return $this->redirect($pathinfo.'/', 'api_comments_add');
                 }
@@ -598,7 +598,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             }
 
             // api_comments_by
-            if (0 === strpos($pathinfo, '/api/comments/by') && preg_match('#^/api/comments/by/(?P<article>[^/]++)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
+            if (preg_match('#^/api/(?P<packageName>[^/]++)/comments/by/(?P<article>[^/]++)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
                 if (substr($pathinfo, -1) !== '/') {
                     return $this->redirect($pathinfo.'/', 'api_comments_by');
                 }
@@ -627,7 +627,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         // api_support_add
-        if (0 === strpos($pathinfo, '/api/support/add') && preg_match('#^/api/support/add/(?P<email>[^/]++)/(?P<subject>[^/]++)/(?P<message>[^/]++)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
+        if (0 === strpos($pathinfo, '/api') && preg_match('#^/api/(?P<packageName>[^/]++)/support/add/(?P<email>[^/]++)/(?P<subject>[^/]++)/(?P<message>[^/]++)/(?P<token>[^/]++)/?$#s', $pathinfo, $matches)) {
             if (substr($pathinfo, -1) !== '/') {
                 return $this->redirect($pathinfo.'/', 'api_support_add');
             }

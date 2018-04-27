@@ -18,7 +18,7 @@ class ApplicationsController extends Controller
 
 
 
-    public function api_listAction(Request $request,$token){
+    public function api_listAction(Request $request,$application,$token){
         if ($token!=$this->container->getParameter('token_app')) {
             throw new NotFoundHttpException("Page not found");
         }
