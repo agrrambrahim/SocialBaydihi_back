@@ -51,15 +51,25 @@ class Category
     private $description;
 
     /**
+     * @ORM\ManyToOne(targetEntity="Application", inversedBy="categories")
+     * @ORM\JoinColumn(name="application_id", referencedColumnName="id", nullable=true,onDelete="SET NULL")
+     */
+
+    private $application;
+
+
+    /**
     * @ORM\OneToMany(targetEntity="Guide", mappedBy="category")
     * @ORM\OrderBy({"created" = "desc"})
     */
+
     private $guides;
 
     public function __construct()
     {
         $this->guides = new ArrayCollection();
     }
+
     /**
      * Get id
      *
@@ -68,6 +78,26 @@ class Category
     public function getId()
     {
         return $this->id;
+    }
+
+
+    /**
+     * Get application
+     * @return
+     */
+    public function getApplication()
+    {
+        return $this->application;
+    }
+
+    /**
+     * Set application
+     * @return $this
+     */
+    public function setApplication($application)
+    {
+        $this->application = $application;
+        return $this;
     }
 
     /**

@@ -5,6 +5,35 @@ api_home_api_device:
     path:   /api/device/{tkn}/{token}/
     defaults: { _controller: AppBundle:Home:api_device }
 
+
+
+app_applications_index:
+    path:     /applications/index.html
+    defaults: { _controller: AppBundle:Applications:index }
+app_applications_add:
+    path:     /applications/add.html
+    defaults: { _controller: AppBundle:Applications:add }
+app_applications_delete:
+    path:     /applications/delete/{id}.html
+    defaults: { _controller: AppBundle:Applications:delete }
+    requirements:
+        id:  \d+
+app_applications_up:
+    path:     /applications/up/{id}.html
+    defaults: { _controller: AppBundle:Applications:up }
+    requirements:
+        id:  \d+
+app_applications_down:
+    path:     /applications/down/{id}.html
+    defaults: { _controller: AppBundle:Applications:down }
+    requirements:
+        id:  \d+
+app_applications_edit:
+    path:     /applications/edit/{id}.html
+    defaults: { _controller: AppBundle:Applications:edit }
+    requirements:
+        id:  \d+
+
 app_categories_index:
     path:     /categories/index.html
     defaults: { _controller: AppBundle:Categories:index }
@@ -32,11 +61,11 @@ app_categories_edit:
     requirements:
         id:  \d+
 api_categories_list:
-  path: /api/categories/list/{token}/
+  path: /api/{packageName}/categories/list/{token}/
   defaults: { _controller: AppBundle:Categories:api_list}
 
 api_guides_all:
-  path: /api/guides/all/{token}/
+  path: /api/{packageName}/guides/all/{token}/
   defaults: { _controller: AppBundle:Guides:api_all}
 app_guides_add:
     path:     /guides/add.html
