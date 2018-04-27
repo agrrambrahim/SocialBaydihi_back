@@ -11,6 +11,7 @@ class CategoryType extends AbstractType
     {
        $builder
             ->add('title',null,array("label"=>"Category"))
+            ->add('application',null,array("label"=>"Application"))
             ->add("description")
         ;
         $builder->add('save', 'submit',array("label"=>"SAVE THE CATEGORY"));

@@ -9,12 +9,20 @@
 <ul class="main-menu">    
   <li><a href="{{path("app_home_index")}}"  ><i class="zmdi zmdi-home"></i>Home</a></li>
   <li class="sub-menu">
-    <a href="#"  data-ma-action="submenu-toggle"><i class="zmdi zmdi-format-list-bulleted"></i>Categories</a>
+    <a href="#"  data-ma-action="submenu-toggle"><i class="zmdi zmdi-format-list-bulleted"></i>Applications</a>
     <ul>
-      <li><a href="{{path("app_categories_index")}}">Categories List</a></li>
-      <li><a href="{{path("app_categories_add")}}">New Category</a></li>
+      <li><a href="{{path("app_applications_index")}}">Applications List</a></li>
+      <li><a href="{{path("app_applications_add")}}">New Application</a></li>
     </ul>
   </li>
+  <li class="sub-menu">
+  <a href="#"  data-ma-action="submenu-toggle"><i class="zmdi zmdi-format-list-bulleted"></i>Categories</a>
+  <ul>
+    <li><a href="{{path("app_categories_index")}}">Categories List</a></li>
+    <li><a href="{{path("app_categories_add")}}">New Categorie</a></li>
+  </ul>
+  </li>
+
   <li class="sub-menu">
     <a href="#"  data-ma-action="submenu-toggle"><i class="zmdi zmdi-collection-text"></i>Guides</a>
     <ul>

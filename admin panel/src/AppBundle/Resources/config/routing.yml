@@ -61,9 +61,12 @@ app_categories_edit:
     requirements:
         id:  \d+
 api_categories_list:
-  path: /api/{packageName}/categories/list/{token}/
+  path: /api/categories/list/{token}/
   defaults: { _controller: AppBundle:Categories:api_list}
 
+api_categoriesbyApplication_list:
+  path: /api/{packageName}/categories/list/{token}/
+  defaults: { _controller: AppBundle:Categories:api_by_Application}
 api_guides_all:
   path: /api/{packageName}/guides/all/{token}/
   defaults: { _controller: AppBundle:Guides:api_all}

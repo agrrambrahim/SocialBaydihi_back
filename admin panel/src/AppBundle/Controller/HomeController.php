@@ -37,6 +37,10 @@ class HomeController extends Controller
         $steps= $em->getRepository("AppBundle:Step")->findAll();
         $steps_count= sizeof($steps);
 
+        $applications=$em->getRepository('AppBundle:Application')->findAll();
+        $applications_count= sizeof($applications);
+
+
 
 
         $articles_count=0;
@@ -50,7 +54,10 @@ class HomeController extends Controller
             "comments_count"=>$comments_count,
             "guides_count"=>$guides_count,
             "steps_count"=>$steps_count,
-            "messages_count"=>$messages_count
+            "messages_count"=>$messages_count,
+            "applications_count"=>$applications_count,
+            "applications"=>$applications
+
         ));
     }
     public function api_deviceAction($tkn,$token){

@@ -3,19 +3,31 @@
 <div class="container">
     <div class="row">
 
-        <div class="col-sm-4"  style="padding:10px">
+        <div class="col-sm-3"  style="padding:10px">
             <div class="card c-dark palette-Light-Blue bg ">
                 <div class="card-body card-padding">
                     <h2 class="m-t-0 m-b-15 c-white">
                         <i class="zmdi zmdi-format-list-bulleted zmdi-48"></i><font><font>
-                        {{categories_count}}
+                        {{applications_count}}
+                    </h2>
+                    <h2 class="m-t-0 m-b-15 c-white">Applications</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3"  style="padding:10px">
+            <div class="card c-dark palette-green bg ">
+                <div class="card-body card-padding">
+                    <h2 class="m-t-0 m-b-15 c-white">
+                        <i class="zmdi zmdi-format-list-bulleted zmdi-48"></i><font><font>
+                                {{categories_count}}
                     </h2>
                     <h2 class="m-t-0 m-b-15 c-white">Categories</h2>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4"  style="padding:10px">
-            <div class="card c-dark palette-green bg ">
+
+        <div class="col-sm-3"  style="padding:10px">
+            <div class="card c-dark palette-Cyan bg ">
                 <div class="card-body card-padding">
                     <h2 class="m-t-0 m-b-15 c-white">
                         <i class="zmdi zmdi-collection-text"></i><font><font>
@@ -25,8 +37,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4"  style="padding:10px">
-            <div class="card c-dark palette-Cyan bg ">
+        <div class="col-sm-3"  style="padding:10px">
+            <div class="card c-dark palette-Purple bg ">
                 <div class="card-body card-padding">
                     <h2 class="m-t-0 m-b-15 c-white">
                         <i class="zmdi zmdi-collection-item"></i><font><font>
@@ -36,8 +48,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4"  style="padding:10px">
-            <div class="card c-dark palette-Purple bg ">
+        <div class="col-sm-3 col-sm-offset-1"  style="padding:10px">
+            <div class="card c-dark palette-Pink bg ">
                 <div class="card-body card-padding">
                     <h2 class="m-t-0 m-b-15 c-white">
                         <i class="zmdi zmdi-comments"></i><font><font>
@@ -47,8 +59,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4"  style="padding:10px">
-            <div class="card c-dark palette-Pink bg ">
+        <div class="col-sm-3"  style="padding:10px">
+            <div class="card c-dark palette-Blue-Grey bg ">
                 <div class="card-body card-padding">
                     <h2 class="m-t-0 m-b-15 c-white">
                         <i class="zmdi zmdi-account"></i><font><font>
@@ -58,8 +70,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4"  style="padding:10px">
-            <div class="card c-dark palette-Blue-Grey bg ">
+        <div class="col-sm-3"  style="padding:10px">
+            <div class="card c-dark palette-Light-Blue bg ">
                 <div class="card-body card-padding">
                     <h2 class="m-t-0 m-b-15 c-white">
                         <i class="zmdi zmdi-help m-r-5 zmdi-48"></i><font><font>
@@ -70,5 +82,45 @@
             </div>
         </div>
     </div>
+<div class="row">
+    <br/>
+    <h3 class="text-info">Applications :</h3>
+
+        {% for item in applications %}
+            <div class="col-sm-4" style="padding:10px;">
+                <div class="card palette-Light-Blue bg">
+                    <ul class="actions a-alt">
+                        <li class="dropdown">
+                            <a href="" data-toggle="dropdown">
+                                <i class="zmdi zmdi-more-vert"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li>
+                                    <a href="{{path("app_applications_delete",{"id":item.id})}}">Delete</a>
+                                </li>
+                                <li>
+                                    <a href="{{path("app_applications_edit",{"id":item.id})}}">Edit</a>
+                                </li>
+                                <li>
+                                    <a href="{{path("app_applications_up",{"id":item.id})}}">Up</a>
+                                </li>
+                                <li>
+                                    <a href="{{path("app_applications_down",{"id":item.id})}}">Down</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div>
+                        <div class="cw-current media">
+                            <div class="cwc-info media-body">
+                                <div class="cwci-temp">{{item.title}}</div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+            </div>
 </div>
 {% endblock%}
