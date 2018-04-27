@@ -12,7 +12,7 @@ class ApplicationType extends AbstractType
         $builder
             ->add('title',null,array("label"=>"Application"))
             ->add("description")
-            ->add("packagaeName")
+            ->add("packageName")
         ;
         $builder->add('save', 'submit',array("label"=>"SAVE THE APPLICATION"));
 

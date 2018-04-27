@@ -2,7 +2,6 @@
 
 namespace AppBundle\Controller;
 use AppBundle\Entity\Application;
-use AppBundle\Entity\Category;
 use AppBundle\Form\ApplicationType;
 use AppBundle\Form\CategoryType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -14,18 +13,18 @@ use Symfony\Component\Serializer\Serializer;
 use Symfony\Component\Serializer\Encoder\XmlEncoder;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
-class CategoriesController extends Controller
+class ApplicationsController extends Controller
 {
 
 
 
-    public function api_listAction(Request $request,$token){
+    public function api_listAction(Request $request,$application,$token){
         if ($token!=$this->container->getParameter('token_app')) {
             throw new NotFoundHttpException("Page not found");
         }
         $em=$this->getDoctrine()->getManager();
         $imagineCacheManager = $this->get('liip_imagine.cache.manager');
-        $applications=$em->getRepository('AppBundle:Application')->findBy(array(),array("position"=>"asc"));
+        $applications=$em->getRepository('AppBundle:Application')->findBy(array(),array("id"=>"asc"));
 
 
         $list=array();
@@ -48,7 +47,7 @@ class CategoriesController extends Controller
     public function indexAction(Request $request)
     {
         $em=$this->getDoctrine()->getManager();
-        $applications=$em->getRepository('AppBundle:Application')->findBy(array(),array("position"=>"asc"));
+        $applications=$em->getRepository('AppBundle:Application')->findBy(array(),array("id"=>"asc"));
         return $this->render('AppBundle:Applications:index.html.twig',array("applications"=>$applications));
     }
 
@@ -105,7 +104,7 @@ class CategoriesController extends Controller
         if ($application==null) {
             throw new NotFoundHttpException("Page not found");
         }
-        $form = $this->createForm(new CategoryType(),$application);
+        $form = $this->createForm(new ApplicationType(),$application);
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
             $em->persist($application);
