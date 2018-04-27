@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3293aa43-3443-4506-85f2-3666b0679c51" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1635">
+              <caret line="109" column="26" lean-forward="true" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>api/</find>
+      <find>api_categories_list</find>
+      <find>findby(array(</find>
+      <find>category</find>
+      <find>findBy(array(</find>
+      <find>findBy(array('</find>
+      <find>api</find>
+      <find>api_list</find>
+      <find>Category</find>
+      <find>PackageName</find>
+      <find>edit_stepAction</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>PackageName</replace>
+      <replace>Application</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/PackageNameController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/CommentsController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/PackageName.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Application.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Category.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Repository/ApplicationRepository.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/CategoriesController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Form/ApplicationType.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/ApplicationsController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/config/routing.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/vendor/components/jquery/package.json" />
+      <path value="$PROJECT_DIR$/vendor/itsjavi/bootstrap-colorpicker/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/itsjavi/bootstrap-colorpicker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-acl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-time-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/egeloen/json-builder" />
+      <path value="$PROJECT_DIR$/vendor/egeloen/ckeditor-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/imagine/imagine" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/liip/imagine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php54" />
+      <path value="$PROJECT_DIR$/vendor/ircmaxell/password-compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php55" />
+      <path value="$PROJECT_DIR$/vendor/components/jquery" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="23" />
+    <option name="width" value="1260" />
+    <option name="height" value="757" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="admin panel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin panel" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin panel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin panel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin panel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin panel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin panel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin panel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin panel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin panel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin panel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin panel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="admin panel" type="cbb8eebc:String" user="admin panel" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="rou&#9;FILE&#9;file:///Users/mac/Desktop/SocialBaydihi_back/admin panel/src/AppBundle/Resources/config/routing.yml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3293aa43-3443-4506-85f2-3666b0679c51" name="Default" comment="" />
+      <created>1524597178298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524597178298</updated>
+      <workItem from="1524597182318" duration="5992000" />
+      <workItem from="1524661830876" duration="3895000" />
+      <workItem from="1524742112714" duration="1325000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15385000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="23" width="1260" height="757" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50246304" side_tool="true" weight="0.559375" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49753696" weight="0.4203125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33908045" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32880846" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33908045" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49753696" visible="true" weight="0.559375" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50246304" side_tool="true" visible="true" weight="0.559375" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <element signature="e#603#1177#0#PHP" />
+            <element signature="e#907#1013#0#PHP" />
+            <element signature="e#1030#1169#0#PHP" />
+            <element signature="e#1094#1159#0#PHP" />
+            <element signature="e#1182#1801#0#PHP" />
+            <element signature="e#1242#1375#0#PHP" />
+            <element signature="e#1525#1641#0#PHP" />
+            <element signature="e#1657#1792#0#PHP" />
+            <element signature="e#1721#1782#0#PHP" />
+            <element signature="e#1806#4100#0#PHP" />
+            <element signature="e#1882#2015#0#PHP" />
+            <element signature="e#2392#3686#0#PHP" />
+            <element signature="e#2871#3270#0#PHP" />
+            <element signature="e#3080#3270#0#PHP" />
+            <element signature="e#3570#3686#0#PHP" />
+            <element signature="e#3702#3808#0#PHP" />
+            <element signature="e#4105#4975#0#PHP" />
+            <element signature="e#4283#4375#0#PHP" />
+            <element signature="e#4450#4573#0#PHP" />
+            <element signature="e#4527#4573#0#PHP" />
+            <element signature="e#4680#4868#0#PHP" />
+            <element signature="e#4980#5646#0#PHP" />
+            <element signature="e#5162#5254#0#PHP" />
+            <element signature="e#5316#5455#0#PHP" />
+            <element signature="e#5401#5455#0#PHP" />
+            <element signature="e#5651#6563#0#PHP" />
+            <element signature="e#5835#5927#0#PHP" />
+            <element signature="e#5991#6069#0#PHP" />
+            <element signature="e#5991#6104#0#PHP" />
+            <element signature="e#6178#6453#0#PHP" />
+            <element signature="e#6568#7735#0#PHP" />
+            <element signature="e#6748#6840#0#PHP" />
+            <element signature="e#6927#7005#0#PHP" />
+            <element signature="e#6927#7040#0#PHP" />
+            <element signature="e#7114#7625#0#PHP" />
+            <element signature="e#7314#7510#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GuidesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="503" column="87" selection-start-line="503" selection-start-column="87" selection-end-line="503" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Device.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Guide.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PackageNameController.php" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/CategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="89" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/CategoryRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <element signature="e#603#1177#0#PHP" />
+            <element signature="e#907#1013#0#PHP" />
+            <element signature="e#1030#1169#0#PHP" />
+            <element signature="e#1094#1159#0#PHP" />
+            <element signature="e#1182#1801#0#PHP" />
+            <element signature="e#1242#1375#0#PHP" />
+            <element signature="e#1525#1641#0#PHP" />
+            <element signature="e#1657#1792#0#PHP" />
+            <element signature="e#1721#1782#0#PHP" />
+            <element signature="e#1806#4100#0#PHP" />
+            <element signature="e#1882#2015#0#PHP" />
+            <element signature="e#2392#3686#0#PHP" />
+            <element signature="e#2871#3270#0#PHP" />
+            <element signature="e#3080#3270#0#PHP" />
+            <element signature="e#3570#3686#0#PHP" />
+            <element signature="e#3702#3808#0#PHP" />
+            <element signature="e#4105#4975#0#PHP" />
+            <element signature="e#4283#4375#0#PHP" />
+            <element signature="e#4450#4573#0#PHP" />
+            <element signature="e#4527#4573#0#PHP" />
+            <element signature="e#4680#4868#0#PHP" />
+            <element signature="e#4980#5646#0#PHP" />
+            <element signature="e#5162#5254#0#PHP" />
+            <element signature="e#5316#5455#0#PHP" />
+            <element signature="e#5401#5455#0#PHP" />
+            <element signature="e#5651#6563#0#PHP" />
+            <element signature="e#5835#5927#0#PHP" />
+            <element signature="e#5991#6069#0#PHP" />
+            <element signature="e#5991#6104#0#PHP" />
+            <element signature="e#6178#6453#0#PHP" />
+            <element signature="e#6568#7735#0#PHP" />
+            <element signature="e#6748#6840#0#PHP" />
+            <element signature="e#6927#7005#0#PHP" />
+            <element signature="e#6927#7040#0#PHP" />
+            <element signature="e#7114#7625#0#PHP" />
+            <element signature="e#7314#7510#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="e#36#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="e#36#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Device.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PackageNameController.php" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/GuideType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/StepType.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/CommentRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/DeviceRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/SupportRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+          <folding>
+            <element signature="e#36#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+          <folding>
+            <element signature="e#36#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/ApplicationRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/CategoryRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/CategoryType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="8" column="1" lean-forward="true" selection-end-line="24" />
+          <folding>
+            <element signature="e#33#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="e#603#1177#0#PHP" />
+            <element signature="e#907#1013#0#PHP" />
+            <element signature="e#1030#1169#0#PHP" />
+            <element signature="e#1094#1159#0#PHP" />
+            <element signature="e#1182#1801#0#PHP" />
+            <element signature="e#1242#1375#0#PHP" />
+            <element signature="e#1525#1641#0#PHP" />
+            <element signature="e#1657#1792#0#PHP" />
+            <element signature="e#1721#1782#0#PHP" />
+            <element signature="e#1806#4100#0#PHP" />
+            <element signature="e#1882#2015#0#PHP" />
+            <element signature="e#2392#3686#0#PHP" />
+            <element signature="e#2871#3270#0#PHP" />
+            <element signature="e#3080#3270#0#PHP" />
+            <element signature="e#3570#3686#0#PHP" />
+            <element signature="e#3702#3808#0#PHP" />
+            <element signature="e#4105#4975#0#PHP" />
+            <element signature="e#4283#4375#0#PHP" />
+            <element signature="e#4450#4573#0#PHP" />
+            <element signature="e#4527#4573#0#PHP" />
+            <element signature="e#4680#4868#0#PHP" />
+            <element signature="e#4980#5646#0#PHP" />
+            <element signature="e#5162#5254#0#PHP" />
+            <element signature="e#5316#5455#0#PHP" />
+            <element signature="e#5401#5455#0#PHP" />
+            <element signature="e#5651#6563#0#PHP" />
+            <element signature="e#5835#5927#0#PHP" />
+            <element signature="e#5991#6069#0#PHP" />
+            <element signature="e#5991#6104#0#PHP" />
+            <element signature="e#6178#6453#0#PHP" />
+            <element signature="e#6568#7735#0#PHP" />
+            <element signature="e#6748#6840#0#PHP" />
+            <element signature="e#6927#7005#0#PHP" />
+            <element signature="e#6927#7040#0#PHP" />
+            <element signature="e#7114#7625#0#PHP" />
+            <element signature="e#7314#7510#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ElementsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Guide.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892">
+          <caret line="215" column="5" lean-forward="true" selection-start-line="215" selection-start-column="5" selection-end-line="215" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/ApplicationType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GuidesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="379" column="59" selection-start-line="379" selection-start-column="59" selection-end-line="379" selection-end-column="59" />
+          <folding>
+            <element signature="e#713#1273#0#PHP" />
+            <element signature="e#795#928#0#PHP" />
+            <element signature="e#1086#1181#0#PHP" />
+            <element signature="e#1278#1948#0#PHP" />
+            <element signature="e#1347#1480#0#PHP" />
+            <element signature="e#1620#1792#0#PHP" />
+            <element signature="e#1953#2599#0#PHP" />
+            <element signature="e#2017#2150#0#PHP" />
+            <element signature="e#2290#2443#0#PHP" />
+            <element signature="e#2604#3326#0#PHP" />
+            <element signature="e#2695#2828#0#PHP" />
+            <element signature="e#2968#3170#0#PHP" />
+            <element signature="e#3331#4007#0#PHP" />
+            <element signature="e#3407#3540#0#PHP" />
+            <element signature="e#3679#3869#0#PHP" />
+            <element signature="e#4012#4705#0#PHP" />
+            <element signature="e#4094#4227#0#PHP" />
+            <element signature="e#4366#4549#0#PHP" />
+            <element signature="e#4710#5455#0#PHP" />
+            <element signature="e#4795#4982#0#PHP" />
+            <element signature="e#5247#5353#0#PHP" />
+            <element signature="e#5460#6643#0#PHP" />
+            <element signature="e#5694#6538#0#PHP" />
+            <element signature="e#5763#6528#0#PHP" />
+            <element signature="e#6392#6528#0#PHP" />
+            <element signature="e#6653#8420#0#PHP" />
+            <element signature="e#6836#6927#0#PHP" />
+            <element signature="e#7081#8291#0#PHP" />
+            <element signature="e#7150#8274#0#PHP" />
+            <element signature="e#7594#7803#0#PHP" />
+            <element signature="e#8021#8274#0#PHP" />
+            <element signature="e#8425#10182#0#PHP" />
+            <element signature="e#8604#8695#0#PHP" />
+            <element signature="e#8849#10057#0#PHP" />
+            <element signature="e#8918#10040#0#PHP" />
+            <element signature="e#9362#9571#0#PHP" />
+            <element signature="e#9788#10040#0#PHP" />
+            <element signature="e#10187#12562#0#PHP" />
+            <element signature="e#10364#10456#0#PHP" />
+            <element signature="e#10636#12439#0#PHP" />
+            <element signature="e#10705#12422#0#PHP" />
+            <element signature="e#11146#11328#0#PHP" />
+            <element signature="e#11203#11310#0#PHP" />
+            <element signature="e#11728#12422#0#PHP" />
+            <element signature="e#11881#12063#0#PHP" />
+            <element signature="e#11938#12045#0#PHP" />
+            <element signature="e#12567#12933#0#PHP" />
+            <element signature="e#12745#12837#0#PHP" />
+            <element signature="e#12938#13692#0#PHP" />
+            <element signature="e#13114#13206#0#PHP" />
+            <element signature="e#13466#13571#0#PHP" />
+            <element signature="e#13697#14622#0#PHP" />
+            <element signature="e#13878#13969#0#PHP" />
+            <element signature="e#14096#14261#0#PHP" />
+            <element signature="e#14284#14416#0#PHP" />
+            <element signature="e#14627#15556#0#PHP" />
+            <element signature="e#14813#14904#0#PHP" />
+            <element signature="e#15031#15196#0#PHP" />
+            <element signature="e#15219#15351#0#PHP" />
+            <element signature="e#15561#16391#0#PHP" />
+            <element signature="e#15738#15829#0#PHP" />
+            <element signature="e#15838#16199#0#PHP" />
+            <element signature="e#15917#16106#0#PHP" />
+            <element signature="e#15993#16092#0#PHP" />
+            <element signature="e#16747#16936#0#PHP" />
+            <element signature="e#16823#16922#0#PHP" />
+            <element signature="e#17227#18186#0#PHP" />
+            <element signature="e#17406#17497#0#PHP" />
+            <element signature="e#17522#17695#0#PHP" />
+            <element signature="e#17594#17685#0#PHP" />
+            <element signature="e#17704#18069#0#PHP" />
+            <element signature="e#17786#17975#0#PHP" />
+            <element signature="e#17862#17961#0#PHP" />
+            <element signature="e#18191#19146#0#PHP" />
+            <element signature="e#18365#18456#0#PHP" />
+            <element signature="e#18481#18654#0#PHP" />
+            <element signature="e#18553#18644#0#PHP" />
+            <element signature="e#18663#19028#0#PHP" />
+            <element signature="e#18745#18934#0#PHP" />
+            <element signature="e#18821#18920#0#PHP" />
+            <element signature="e#19151#20650#0#PHP" />
+            <element signature="e#19326#19416#0#PHP" />
+            <element signature="e#19431#19509#0#PHP" />
+            <element signature="e#19431#19544#0#PHP" />
+            <element signature="e#19618#20542#0#PHP" />
+            <element signature="e#19677#20060#0#PHP" />
+            <element signature="e#19849#20046#0#PHP" />
+            <element signature="e#20177#20376#0#PHP" />
+            <element signature="e#20655#24674#0#PHP" />
+            <element signature="e#20828#20918#0#PHP" />
+            <element signature="e#21126#23383#0#PHP" />
+            <element signature="e#21205#23371#0#PHP" />
+            <element signature="e#21706#21923#0#PHP" />
+            <element signature="e#21778#21905#0#PHP" />
+            <element signature="e#22480#23371#0#PHP" />
+            <element signature="e#22648#22865#0#PHP" />
+            <element signature="e#22720#22847#0#PHP" />
+            <element signature="e#23544#24475#0#PHP" />
+            <element signature="e#23613#24283#0#PHP" />
+            <element signature="e#24060#24269#0#PHP" />
+            <element signature="e#24491#24667#0#PHP" />
+            <element signature="e#24539#24666#0#PHP" />
+            <element signature="e#24679#25360#0#PHP" />
+            <element signature="e#24888#24978#0#PHP" />
+            <element signature="e#25081#25172#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/CategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="155" column="5" lean-forward="true" selection-start-line="117" selection-start-column="2" selection-end-line="155" selection-end-column="5" />
+          <folding>
+            <element signature="e#705#838#0#PHP" />
+            <element signature="e#1105#1331#0#PHP" />
+            <element signature="e#1678#1984#0#PHP" />
+            <element signature="e#1989#2949#0#PHP" />
+            <element signature="e#2235#2840#0#PHP" />
+            <element signature="e#2392#2563#0#PHP" />
+            <element signature="e#2450#2549#0#PHP" />
+            <element signature="e#2954#3763#0#PHP" />
+            <element signature="e#3135#3231#0#PHP" />
+            <element signature="e#3240#3681#0#PHP" />
+            <element signature="e#3407#3578#0#PHP" />
+            <element signature="e#3465#3564#0#PHP" />
+            <element signature="e#3768#4697#0#PHP" />
+            <element signature="e#3951#4047#0#PHP" />
+            <element signature="e#4145#4239#0#PHP" />
+            <element signature="e#4248#4615#0#PHP" />
+            <element signature="e#4340#4511#0#PHP" />
+            <element signature="e#4398#4497#0#PHP" />
+            <element signature="e#4702#5570#0#PHP" />
+            <element signature="e#4884#4977#0#PHP" />
+            <element signature="e#4993#5071#0#PHP" />
+            <element signature="e#4993#5106#0#PHP" />
+            <element signature="e#5180#5458#0#PHP" />
+            <element signature="e#5575#6362#0#PHP" />
+            <element signature="e#5758#5854#0#PHP" />
+            <element signature="e#5969#6252#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ApplicationsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="116" column="52" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
+          <folding>
+            <element signature="e#39#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="26" lean-forward="true" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
